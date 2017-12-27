@@ -1,3 +1,9 @@
+########## Object Initialization and Representation ################
+
+# Dunder Methods : In python there are special predefined methods to enrich the classes called dunder methods which 
+# start and end with double underscores. So instead of saying under-under or double under, they are called as dunder methods. 
+# They are also called magic methods in python. Dunder methods let you emulate the built-in types even if the class is empty.
+
 from collections import namedtuple
 from datetime import datetime
 
