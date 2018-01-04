@@ -1,0 +1,15 @@
+Understanding data types in Python
+C and java requires the data types to be explicity declared which is not the case in python. This flexibility in python makes it easy to use.
+# Python code 
+x=4
+x='four'
+
+# C code
+int x = 4
+
+In python, data object has got more information than just the raw value. For example when we define an integer in python x =1000, x is not just a raw integer. A single integer contains 4 pieces of information. 
+1. ob_refcnt = reference count that helps python silently handle memory allocation and de-allocation.
+2. ob_type = which encodes the type of variable
+3. ob_size = specifies the size of following data members
+4. ob_digit = contains actual integer value that we expect the python variable to represent.
+
